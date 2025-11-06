@@ -1,0 +1,12 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+/* Light Theme */
+:root { --bg: #f7fbff; --fg: #0b1220; --nav-h: 64px; }
+html, body { height: 100%; background: linear-gradient(to bottom right, #f0f9ff, #ffffff 35%, #e6f2ff 100%); color: var(--fg); }
+.container-px { @apply px-4 sm:px-6 lg:px-8; }
+.btn { @apply inline-flex items-center justify-center rounded-2xl px-5 py-3 font-semibold transition shadow-soft; background: linear-gradient(135deg, #38bdf8, #3b82f6); color: white; }
+.btn:hover { filter: brightness(1.04); }
+.nav-blur { backdrop-filter: blur(12px); background: rgba(255,255,255,.85); border-bottom: 1px solid rgba(2,6,23,.08); }
+.card { @apply rounded-2xl p-5 border; background: rgba(255,255,255,.8); border-color: rgba(2,6,23,.08); }
+h1{ @apply text-3xl sm:text-5xl font-bold tracking-tight text-gray-900; } h2{ @apply text-2xl sm:text-3xl font-semibold text-gray-900; } p{ @apply text-gray-700; }
+.h-svh { height: 100svh; } .main-under-nav { padding-top: var(--nav-h); }
+.top-fade { background: linear-gradient(180deg, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0) 100%); }
