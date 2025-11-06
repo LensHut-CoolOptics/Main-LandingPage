@@ -1,0 +1,41 @@
+# Node modules
+node_modules/
+
+# Build output
+.next/
+out/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Local environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+*.iml
+
+# Dependency locks (optional — only if you don't want to commit them)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# git reset --soft HEAD~1
+*.tsbuildinfo
+
+# Build cache
+.next/cache/
